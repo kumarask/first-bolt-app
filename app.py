@@ -9,8 +9,8 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 
 # Initialize Slack app
-app = App(token="xoxb-9243778025670-9259962638225-AwwwB4BGaOIKPU9LFMaxR7yO")
-socket_token ="xapp-1-A096TD7LCP9-9243798110022-bbb4c731df9e4dba3df034c33fd5275544a5c2420c450621fd7a004f94258abc"
+app = App(token="")
+socket_token =""
 
 @app.command("/statistics")
 def summarize_threads(ack, respond, command):
